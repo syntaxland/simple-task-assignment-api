@@ -54,7 +54,7 @@ def register_employee(request):
     employee = {
         "id": employee_id_counter,
         "name": name,
-        "active_tasks": []  # List of task IDs assigned to this employee
+        "active_tasks": []  # list of task IDs assigned to this employee
     }
     
     employees_db[employee_id_counter] = employee
